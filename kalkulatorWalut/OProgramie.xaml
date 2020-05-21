@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="kalkulatorWalut.OProgramie"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:kalkulatorWalut"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button Name="btnPowrot" Content="Powrót" Margin="10,189,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.312,-5.281" Width="77" Click="btnPowrot_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,76,0,0" Text="Karol Stumski" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,99,0,0" Text="Indeks: 91494" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,165,0,0" Text="14.04.2020" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,26,0,0" Text="Uniwersytet Kazimierza Wielkiego w Bydgoszczy" TextWrapping="Wrap" VerticalAlignment="Top" Width="214"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,122,0,0" Text="Aplikacje Uniwersalne Windows" TextWrapping="Wrap" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
